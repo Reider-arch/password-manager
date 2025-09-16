@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: test
+      POSTGRES_PASSWORD: mypassword # Змінено на mypassword
+      POSTGRES_USER: myuser       # Змінено на myuser
+      TZ: UTC
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Persists database data
+
+volumes:
+  postgres_data:
