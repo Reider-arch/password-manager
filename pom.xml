@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ua.com.javarush.parse.m5</groupId>
-    <artifactId>text</artifactId>
+    <artifactId>password-manager1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>text</name>
     <description>text</description>
